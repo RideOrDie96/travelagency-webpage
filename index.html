@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <title>Travel Web Site</title>
+  
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div class="pre-preloader">
+  </div>
+  <div class="preloader">
+    <div class="loading">LOADING</div>
+  </div>
+  <nav>
+    <div id="nav-container">
+      <!-- Navigation bar -->
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <div class="nav-div">
+        <ul id="nav-main" class="nav-links">
+          <li>
+            <a href="index.html" id="home" class="active">Home</a>
+          </li>
+          <li>
+            <a href="#" id="service" class="inactive">Service</a>
+          </li>
+          <li>
+            <a href="#" id="tours" class="inactive">Tours</a>
+          </li>
+          <li>
+            <a href="#" id="about" class="inactive">About Us</a>
+          </li>
+          <li>
+            <a href="#" id="blog" class="inactive">Blog</a>
+          </li>
+          <li>
+            <a href="#" id="contact" class="inactive">Contact Us</a>
+          </li>
+        </ul>
+        <!-- Sign In/Up -->
+        <ul id="nav-sign" class="nav-links">
+          <li>
+            <a href="#" id="signIn">Sign In</a>
+          </li>
+          <li>
+            <a href="#" id="signUp">Sign Up</a>
+          </li>
+        </ul>
+    </div>
+    </div>
+  </nav>
+  <!-- Banner -->
+  <div id="banner-container">
+    <div class="slides banner-fade">
+      <img class="banner banner-zoom" src="css/images/banner1.jpg" alt="Mountains">
+      <div class="banner-div banner-in">
+        <h1 class="banner-head">Explore Together The Whole Earth</h1>
+        <p class="banner-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Massa tincidunt dui ut ornare lectus sit.
+           Turpis massa sed elementum tempus.</p>
+        <div class="book-button">
+          <span class="book-span">Book Now</span>
+          <img id="book-arrow" src="css/icons/rightArrow.png">
+        </div>
+      </div>
+    </div>
+    <div class="slides banner-fade">
+      <img class="banner banner-zoom" src="css/images/banner2.jpg" alt="Beach">
+      <div class="banner-div banner-in">
+        <h1 class="banner-head">Explore Together The Whole Earth</h1>
+        <p class="banner-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Massa tincidunt dui ut ornare lectus sit.
+           Turpis massa sed elementum tempus.</p>
+        <div class="book-button">
+          <span class="book-span">Book Now</span>
+          <img id="book-arrow" src="css/icons/rightArrow.png">
+        </div>
+      </div>
+    </div>
+    <div class="slides banner-fade">
+      <img class="banner banner-zoom" src="css/images/banner3.jpg" alt="Desert">
+      <div class="banner-div banner-in">
+        <h1 class="banner-head">Explore Together The Whole Earth</h1>
+        <p class="banner-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Massa tincidunt dui ut ornare lectus sit.
+           Turpis massa sed elementum tempus.</p>
+        <div class="book-button">
+          <span class="book-span">Book Now</span>
+          <img id="book-arrow" src="css/icons/rightArrow.png">
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- About Us slide -->
+  <div id="about-container">
+    <div id="about-div" class="slide-in from-left">
+      <h3 id="about-head">About Us</h3>
+      <p id="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         Sit amet nisl suscipit adipiscing bibendum.
+         Molestie at elementum eu facilisis sed odio morbi.
+         Dolor morbi non arcu risus quis varius quam quisque id.
+         Sit amet mauris commodo quis imperdiet.
+         Justo laoreet sit amet cursus sit.</p>
+      <div class="book-button2">
+        <span>Book Now</span>
+      </div>
+    </div>
+    <div id="flip-container1" class="flip-containers slide-in from-right">
+      <img id="bus-img" src="css/images/mini-bus.jpg" alt="Mini Bus">
+      <img id="mountain-img" src="css/images/mountain.jpg" alt="Mountain">
+    </div>
+  </div>
+  <!-- Top Deals slide -->
+  <div id="td-container" class="containers">
+    <div id="top-deals" class="fade-in">
+      <h3>Top Deals</h3>
+    </div>
+    <div class="container deals">
+      <div class="col-sm-4 deal-containers fade-in"><span class="cities">Athens, Greece</span><img src="css/images/greece.jpg" alt="Greece"></div>
+      <div class="col-sm-4 deal-containers fade-in"><span class="cities">Rio de Jeneiro, Brazil</span><img src="css/images/brazil.jpg" alt="Brazil"></div>
+      <div class="col-sm-4 deal-containers fade-in"><span class="cities">Sognefjord, Norway</span><img src="css/images/norway.jpg" alt="Norway"></div>
+      <div class="col-sm-4 deal-containers fade-in"><span class="cities">Bali, Indonesia</span><img src="css/images/bali.jpg" alt="Bali"></div>
+      <div class="col-sm-4 deal-containers fade-in"><span class="cities">New York City, USA</span><img src="css/images/ny.jpg" alt="New York"></div>
+      <div class="col-sm-4 deal-containers fade-in"><span class="cities">Sydney, Australia</span><img src="css/images/australia.jpg" alt="Australia"></div>
+    </div>
+    <div class="all-deals fade-in">
+      <span>View All Deals</span>
+    </div>
+  </div>
+  <!-- Recreation and Explore slide -->
+  <div id="rae-container" class="containers">
+    <div id="rec-container">
+      <div id="rec-div" class="slide-in from-left">
+        <h3 id="rec-head">Recreation in the woods</h3>
+        <p id="rec-text">Commodo quis imperdiet massa tincidunt nunc.
+        Platea dictumst quisque sagittis purus sit amet volutpat.
+        Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam.
+        Gravida in fermentum et sollicitudin ac orci. 
+        Ut diam quam nulla porttitor massa.
+        Eu tincidunt tortor aliquam nulla facilisi cras fermentum.
+        Dui faucibus in ornare quam viverra orci.</p>
+        <div class="buttons">
+          <div class="book-button2">
+            <span>Book Now</span>
+          </div>
+          <div class = "read-button">
+            <span>Read More</span>
+          </div>
+        </div>
+      </div>
+      <div id="flip-container2" class="flip-containers slide-in from-right">
+        <img id="woods-img" src="css/images/woods.jpg" alt="Woods">
+        <img id="mountain2-img" src="css/images/mountain.jpg" alt="Mountain">
+      </div>
+    </div>
+    <div id="exp-container">
+      <div id="flip-container3" class="flip-containers slide-in from-left">
+        <img id="mountain3-img" src="css/images/mountain.jpg" alt="Mountain">
+        <img id="camping-img" src="css/images/camping.jpg" alt="Camping">
+      </div>
+      <div id="exp-div" class="slide-in from-right">
+        <h3 id="exp-head">Explore</h3>
+        <p id="exp-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Lacus laoreet non curabitur gravida arcu ac.
+           Elit eget gravida cum sociis natoque penatibus et.
+           Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis.
+           Nisl condimentum id venenatis a condimentum vitae sapien pellentesque.
+           Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi.</p>
+        <div class="buttons">
+          <div class="book-button2">
+            <span>Book Now</span>
+          </div>
+          <div class="read-button">
+            <span>Read More</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Gallery slide-->
+  <div id="gallery-container" class="containers">
+    <div id="gallery-div" class="fade-in">
+      <div id="gallery-head">
+        <h3>Gallery</h3>
+      </div>
+        <p id="gallery-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lacus laoreet non curabitur gravida arcu ac.
+          Elit eget gravida cum sociis natoque penatibus et.
+          Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis.
+          Nisl condimentum id venenatis a condimentum vitae sapien pellentesque.</p>
+    </div>
+    <div class="gallery fade-in">
+      <div class="gal-containers1">
+        <img id="diver-img" class="gal-img" src="css/images/image1.jpg" alt="Diver">
+      </div>
+      <div class="gal-containers2 gal-left">
+        <img id="chinese-img" class="gal-img" src="css/images/image2.jpg" alt="Chinese Garden">
+        <img id="village-img" class="gal-img" src="css/images/image3.jpg" alt="Village">
+      </div>
+      <div class="gal-containers2 gal-right">
+        <img id="maldives-img" class="gal-img" src="css/images/image4.jpg" alt="Maldives">
+        <img id="canyon-img" class="gal-img" src="css/images/image5.jpg" alt="Canyon">
+      </div>
+      <div class="gal-containers2 gal-gone">
+        <img id="compass-img" class="gal-img" src="css/images/image6.jpg" alt="Compass">
+        <img id="santorini-img" class="gal-img" src="css/images/image7.jpg" alt="Santorini">
+      </div>
+      <div class="gal-containers1">
+        <img id="fog-img" class="gal-img" src="css/images/image8.jpg" alt="Foggy Mountain">
+      </div>
+    </div>
+  </div>
+  <!--Subscribe slide -->
+  <div id="sub-container" class="containers fade-in">
+    <h2 id="sub-head">Subscribe to get the latest news</h2>
+    <div id="mail-container">
+      <input id="sub-input" type="email" placeholder="Email address"/>
+      <div id="sub-button"><span>Subscribe</span></div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer id="footer">
+    <div id="foot-div">
+      <ul id="foot-main" class="navbar-nav foot-links">
+        <li>
+          <a href="index.html" id="home-footer">HOME</a>
+        </li>
+        <li>
+          <a href="#" id="service-footer">SERVICE</a>
+        </li>
+        <li>
+          <a href="#" id="tours-footer">TOURS</a>
+        </li>
+        <li>
+          <a href="#" id="about-footer">ABOUT</a>
+        </li>
+        <li>
+          <a href="#" id="blog-footer">BLOG</a>
+        </li>
+        <li>
+          <a href="#" id="contact-footer">CONTACT US</a>
+        </li>
+      </ul>
+      <ul id="foot-ppc" class="navbar-nav foot-links">
+        <li>
+          <a href="#" id="privacy">Privacy</a>
+        </li>
+        <li>
+          <a href="#" id="policy">Policy</a>
+        </li>
+        <li>
+          <a href="#" id="conditions">Conditions</a>
+        </li>
+      </ul>
+      <span id="copy">@Stefan Matić 2021. All rights reserved. Special thanks to Miloš Ristić, UI designer.</span>
+    </div>
+    <div id="social-container">
+      <span id="follow">Follow Us</span>
+      <div id="social-icons">
+        <img id="ig" src="css/icons/ig.png">
+        <img id="fb" src="css/icons/fb.png">
+        <img id="twt" src="css/icons/twt.png">
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html> 
